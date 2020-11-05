@@ -7,8 +7,11 @@
 
 *************************************
 */
+var embed = $("body")hasClass("embed");
+if(!embed){
 if(notfMesseg !== ""){
 $(".notfcation").append("<style>.notfcation::before {background: #f00;}</style>");
+}
 }
 
 // Get table match today
